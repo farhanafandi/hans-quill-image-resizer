@@ -20,8 +20,8 @@
 </body>
 <script defer>
   document.addEventListener('DOMContentLoaded', function () {
-    if (!window.QuillResizeImage) return;
-    Quill.register("modules/resize", window.QuillResizeImage);
+    if (!window.QuillImageResizer) return;
+    Quill.register("modules/resize", window.QuillImageResizer);
 
     var toolbarOptions = [
       "bold",

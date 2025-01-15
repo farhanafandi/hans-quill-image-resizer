@@ -1,12 +1,12 @@
 {
-  "name": "quill-resize-image",
+  "name": "quill-image-resizer",
   "version": "1.0.6",
-  "main": "./dist/quill-resize-image.js",
+  "main": "./dist/quill-image-resizer.js",
   "typings": "types/main.d.ts",
   "license": "MIT",
   "keywords": [
     "quill",
-    "quill-resize-image",
+    "quill-image-resizer",
     "quill-image-resize",
     "quill-iframe-resize"
   ],
