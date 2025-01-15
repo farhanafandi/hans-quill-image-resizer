@@ -7,8 +7,8 @@ export default [
   {
     input: "src/main.ts",
     output: {
-      name: "QuillImageResizer",
-      file: "dist/quill-image-resizer.js",
+      name: "HansQuillImageResizer",
+      file: "dist/hans-quill-image-resizer.js",
       format: "umd",
     },
     plugins: [
@@ -21,8 +21,8 @@ export default [
   {
     input: "src/main.ts",
     output: {
-      name: "QuillImageResizer",
-      file: "dist/quill-image-resizer.min.js",
+      name: "HansQuillImageResizer",
+      file: "dist/hans-quill-image-resizer.min.js",
       format: "umd",
     },
     plugins: [

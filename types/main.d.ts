@@ -4,9 +4,9 @@ interface Quill {
     root: HTMLElement;
     on: any;
 }
-interface QuillImageResizerOptions {
+interface HansQuillImageResizerOptions {
     [index: string]: any;
     locale?: Locale;
 }
-declare function QuillImageResizer(quill: Quill, options?: QuillImageResizerOptions): void;
-export default QuillImageResizer;
+declare function HansQuillImageResizer(quill: Quill, options?: HansQuillImageResizerOptions): void;
+export default HansQuillImageResizer;

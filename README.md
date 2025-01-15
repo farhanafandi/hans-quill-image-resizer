@@ -31,7 +31,7 @@ yarn add quill-image-resizer
 
 ```tsx
 import ReactQuill, { Quill } from 'react-quill';
-import QuillImageResizer from 'quill-image-resizer';
+import HansQuillImageResizer from 'quill-image-resizer';
 
 /**
 - add object resize to modules.
@@ -42,7 +42,7 @@ import QuillImageResizer from 'quill-image-resizer';
 // },
 
 
-Quill.register("modules/resize", window.QuillImageResizer);
+Quill.register("modules/resize", window.HansQuillImageResizer);
 
 const App = () => {
   const Editor = {
@@ -100,7 +100,7 @@ const App = () => {
     </div>
   </body>
   <script>
-    Quill.register("modules/resize", window.QuillImageResizer);
+    Quill.register("modules/resize", window.HansQuillImageResizer);
 
     var toolbarOptions = [
       "bold",

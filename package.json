@@ -1,7 +1,7 @@
 {
-  "name": "quill-image-resizer",
-  "version": "1.0.6",
-  "main": "./dist/quill-image-resizer.js",
+  "name": "hans-quill-image-resizer",
+  "version": "0.0.1",
+  "main": "./dist/hans-quill-image-resizer.js",
   "typings": "types/main.d.ts",
   "license": "MIT",
   "keywords": [
@@ -34,13 +34,13 @@
     "dist",
     "types/*.d.ts"
   ],
-  "homepage": "https://github.com/farhanafandi/quill-image-resizer",
+  "homepage": "https://github.com/farhanafandi/hans-quill-image-resizer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/farhanafandi/quill-image-resizer"
+    "url": "https://github.com/farhanafandi/hans-quill-image-resizer"
   },
   "bugs": {
-    "url": "https://github.com/farhanafandi/quill-image-resizer/issues"
+    "url": "https://github.com/farhanafandi/hans-quill-image-resizer/issues"
   },
   "packageManager": "pnpm@9.7.1"
 }

@@ -9,12 +9,12 @@ interface Quill {
   updateContents: (delta: any) => void;
   getContents: () => any;
 }
-interface QuillImageResizerOptions {
+interface HansQuillImageResizerOptions {
   [index: string]: any;
   locale?: Locale;
 }
 
-function QuillImageResizer(quill: Quill, options?: QuillImageResizerOptions) {
+function HansQuillImageResizer(quill: Quill, options?: HansQuillImageResizerOptions) {
   const container: HTMLElement = quill.root as HTMLElement;
   let resizeTarge: HTMLElement | null;
   let resizePlugin: ResizePlugin | null;
@@ -76,4 +76,4 @@ function QuillImageResizer(quill: Quill, options?: QuillImageResizerOptions) {
   );
 }
 
-export default QuillImageResizer;
+export default HansQuillImageResizer;
