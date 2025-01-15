@@ -31,9 +31,9 @@ const template = `
     <a class="btn" data-type="width" data-styles="width:auto">{4}</a>
   </div>
   <div class="group">
-    <a class="btn" data-type="align" data-styles="float:left;margin-right:1rem;">{1}</a>
+    <a class="btn" data-type="align" data-styles="float:left;margin-right:1rem;margin-top:1rem;margin-bottom:1rem;">{1}</a>
     <a class="btn" data-type="align" data-styles="display:block;margin:auto;">{2}</a>
-    <a class="btn" data-type="align" data-styles="float:right;margin-left:1rem;">{3}</a>
+    <a class="btn" data-type="align" data-styles="float:right;margin-left:1rem;margin-top:1rem;margin-bottom:1rem;">{3}</a>
     <a class="btn" data-type="align" data-styles="">{4}</a>
   </div>
 </div>
